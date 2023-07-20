@@ -11,7 +11,7 @@ const config = {
     storageBucket: "restaurant-d3ed6.appspot.com",
     messagingSenderId: process.env.MESSAGE_ID,
     appId: process.env.APP_ID,
-    measurementId: process.env.MEASUREMENT_ID
+    //measurementId: process.env.MEASUREMENT_ID
 }
 
 firebase.initializeApp(config)
